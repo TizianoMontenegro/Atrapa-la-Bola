@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{margin: 0;}
+h1{
+    text-align: center;
+    padding: 40px 0;
+}
+.box{
+    position: relative;
+    background-color: #ff6;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px dashed #aa1;
+}
+.box.pointer{
+    height: 50px;
+    border-bottom: none;
+    background-color: #ee3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 0 1em;
+}
+#player{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f44;
+    border: 4px dashed #900;
+    border-radius: 50%;
+    transition: transform .3s ease-out;
+}
